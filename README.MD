@@ -15,3 +15,10 @@ Install dependencies using pip:
 
 ```bash
 pip install -r requirements.txt
+
+Note: For delayed actions:
+
+shutdown_delay = 3  # change the value to higher number on this line.
+
+This script is written for Ubuntu system  so for windows system change line number 45 in main.py to os.system("shutdown /s /t 1")
+
